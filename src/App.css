@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  display: flex;
+  background-image: radial-gradient(rgb(219, 171, 14),white);
+}
+
+.weather-app h1 {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 50%; 
+  text-align: center;
+  color: #bf1515;
+  border-radius: 100px;
+  width: fit-content;
+  position: absolute;
+  background-image: radial-gradient(white,green);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

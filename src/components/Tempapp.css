@@ -1,0 +1,155 @@
+
+
+.main-bg{
+
+  margin-top:0px;
+  
+  color: #b14848;
+ 
+ 
+}
+
+.dash{
+  margin-bottom: 10px;
+ 
+}
+
+.inputField{
+  background-color: transparent;
+  height: 50px;
+}
+.box {
+    margin-top: 10px;
+    align-content: center;
+    margin-top: 10px;
+    background-color: #7c0e0e;
+    background-image: url(background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    max-width: 450px;
+    height: 250px;
+    
+  }
+  
+  .info {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .location {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .temp {
+    font-size: 60px;
+    margin: 10px 0;
+    color: #12171b;
+  }
+  .humid{
+    font-size: 40px;
+    margin: 10px 0;
+    color: #223b3d;
+  }
+  .but{
+    background: transparent;
+    border: none;
+    font-size: larger;
+    text-align: center;
+    color: #ffffff;
+    width: 250px;
+  }
+  .convert-but
+  {
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3f51b5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    
+  }
+  .temp::after {
+    
+    font-size: 24px;
+  }
+  
+
+  .add-favorite{
+    margin-bottom: 10px;
+    margin-bottom: 0px;
+    background-color: #3f51b5;
+    border-radius: 100px;
+    height: 40px;
+    max-height: 40px;
+    padding-top: 15px;
+    width: 300px;
+   
+  }
+  
+  .header-main{
+    background-image: url(background1.png);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    width: 300px;
+    max-width: 450px;
+    
+  
+    
+  }
+  .header-title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #3f51b5;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .delete-but{
+ 
+    border-radius: 100px;
+    background-color: #3f51b5;
+    color: #ffffff;
+    height: 30px;
+    margin-bottom: 5px;
+  align-items: center;
+  }
+  
+.dark-mode .main-bg {
+  background-color: #333; 
+  color: #fff;
+}
+.dark-mode .box {
+
+  align-content: center;
+  margin-top: 10px;
+  background-color: #7c0e0e;
+ background-image: url(background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    max-width: 450px;
+    height: 250px;
+}
+.darkbut{
+  margin-top: 10px;
+  margin-left: 120px;
+  border-radius: 100px;
+  color: #ffffff;
+  height: 30px;
+  margin-bottom: 5px;
+  background-color: #333;
+}
